@@ -32,7 +32,7 @@ class dashboardVC: UIViewController {
     @IBOutlet weak var triptrailConstraint: NSLayoutConstraint!
     @IBOutlet weak var tripbottomConstraint: NSLayoutConstraint!
     @IBOutlet weak var requestLeadConstraint: NSLayoutConstraint!
-    @IBOutlet weak var requestBotConstraint: NSLayoutConstraint!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,9 +43,9 @@ class dashboardVC: UIViewController {
         drivertopConstraint.constant = self.containerView.frame.height * (91 / 328)
         driverTrailConstraint.constant = self.containerView.frame.width * (35 / 230)
         triptrailConstraint.constant = self.containerView.frame.width * (35 / 230)
-        tripbottomConstraint.constant = self.containerView.frame.height * (90 / 328)
+        tripbottomConstraint.constant = self.containerView.frame.height * (  / 328)
         requestLeadConstraint.constant = self.containerView.frame.width * (33 / 230)
-        requestBotConstraint.constant = self.containerView.frame.height * (90 / 328)
+        
         
         // Do any additional setup after loading the view.
     }
