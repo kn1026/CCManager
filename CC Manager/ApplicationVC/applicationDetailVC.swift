@@ -281,13 +281,12 @@ class applicationDetailVC: UIViewController {
                     
                     if let dict = json as? [String: AnyObject] {
                         
-                        if let id = dict["id"] as? String {
+                        if (dict["id"] as? String) != nil {
                             
-                            print(id)
+                            
                             
                         }
                         
-                        print(dict)
                         
                         
                     }
@@ -318,9 +317,6 @@ class applicationDetailVC: UIViewController {
     }
     @IBAction func acceptBtnPressed(_ sender: Any) {
         
-        
-        
-        print("Accepted")
         
         Database.database().reference().child("Campus-Connect").child("Application_Request").child("New").child(uid).observeSingleEvent(of: .value, with: { (DriverData) in
             
@@ -423,8 +419,7 @@ class applicationDetailVC: UIViewController {
     
     @IBAction func rejectBtnPressed(_ sender: Any) {
      
-        print("Rejected")
-        
+
         Database.database().reference().child("Campus-Connect").child("Application_Request").child("New").child(uid).observeSingleEvent(of: .value, with: { (DriverData) in
             
             if DriverData.exists() {
@@ -492,10 +487,9 @@ class applicationDetailVC: UIViewController {
                             
                             
                             self.SSN = self.convertIntoSSN(raw: self.SSN!)
-                            
+
                             let url = MainAPIClient.shared.baseURLString
                             let urls = URL(string: url!)?.appendingPathComponent("checkRCreateCandidate")
-                            
                             
                             Alamofire.request(urls!, method: .post, parameters: [
                                 
@@ -504,7 +498,7 @@ class applicationDetailVC: UIViewController {
                                 "middle_name": "",
                                 "last_name": self.lastName!,
                                 "email": self.email!,
-                                "phone": self.phone,
+                                "phone": self.phone!,
                                 "zipcode": self.zipcode!,
                                 "ssn": self.SSN!,
                                 "dob": self.birthday!,
@@ -523,10 +517,10 @@ class applicationDetailVC: UIViewController {
                                         
                                         
                                         if let dict = json as? [String: AnyObject] {
-                                            
-                                            if dict["error"] != nil {
+
+                                            if dict["error"] != nil, let err = dict["error"] as? String {
                                                 SwiftLoader.hide()
-                                                self.showErrorAlert("Ops !!!", msg: "Duplicated ssn with another candidate or maybe due to duplicated tap!!!")
+                                                self.showErrorAlert("Ops !!!", msg: "\(err)")
                                                 
                                             } else {
                                                 

@@ -213,7 +213,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="21 mins ago" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e28-tx-QgK">
-                                                    <rect key="frame" x="329" y="43" width="70" height="21"/>
+                                                    <rect key="frame" x="290" y="43" width="70" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="70" id="OVI-x4-oXB"/>
                                                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="q3K-fE-NmF"/>
@@ -234,7 +234,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Klq-2V-gSA">
-                                                    <rect key="frame" x="387" y="76" width="0.0" height="0.0"/>
+                                                    <rect key="frame" x="348" y="76" width="0.0" height="0.0"/>
                                                     <subviews>
                                                         <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tick" translatesAutoresizingMaskIntoConstraints="NO" id="rwp-0w-oZb">
                                                             <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
@@ -435,7 +435,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="University of New Hampshire" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NBI-ac-FY7">
-                                                    <rect key="frame" x="78" y="23" width="321" height="30"/>
+                                                    <rect key="frame" x="78" y="23" width="282" height="30"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="30" id="Fqr-Dv-3fu"/>
                                                     </constraints>
@@ -1086,13 +1086,22 @@
                                             <action selector="send_noti_driver:" destination="z02-EF-exD" eventType="touchUpInside" id="fMp-BT-Mve"/>
                                         </connections>
                                     </button>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UhQ-7J-407">
+                                        <rect key="frame" x="320" y="83" width="51" height="31"/>
+                                        <color key="onTintColor" red="0.46969616450000001" green="0.77103691220000004" blue="0.94120651479999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <connections>
+                                            <action selector="switchBtnPressed:" destination="z02-EF-exD" eventType="valueChanged" id="znk-Kv-aMU"/>
+                                        </connections>
+                                    </switch>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
+                                    <constraint firstItem="UhQ-7J-407" firstAttribute="top" secondItem="vJu-oe-8p2" secondAttribute="bottom" constant="16" id="3Ah-L8-Q6m"/>
                                     <constraint firstAttribute="trailing" secondItem="Fn2-h6-lle" secondAttribute="trailing" constant="8" id="9a8-JY-3Eh"/>
                                     <constraint firstItem="Fn2-h6-lle" firstAttribute="leading" secondItem="DQB-Z8-FX6" secondAttribute="leading" constant="8" id="Gop-LT-sib"/>
                                     <constraint firstAttribute="height" constant="230" id="Jun-fv-jqD"/>
                                     <constraint firstItem="Pzh-Ic-RR2" firstAttribute="leading" secondItem="DQB-Z8-FX6" secondAttribute="leading" constant="8" id="Ldl-Vl-S5Z"/>
+                                    <constraint firstItem="vJu-oe-8p2" firstAttribute="centerX" secondItem="UhQ-7J-407" secondAttribute="centerX" id="Ubv-qy-C1d"/>
                                     <constraint firstAttribute="trailing" secondItem="vJu-oe-8p2" secondAttribute="trailing" constant="13" id="W0y-vR-wuu"/>
                                     <constraint firstItem="vJu-oe-8p2" firstAttribute="top" secondItem="DQB-Z8-FX6" secondAttribute="top" constant="32" id="ah3-ql-SW4"/>
                                     <constraint firstAttribute="bottom" secondItem="Fn2-h6-lle" secondAttribute="bottom" constant="16" id="d7f-Lb-F2s"/>
@@ -1407,6 +1416,7 @@
                         <outlet property="reportCountLbl" destination="KRV-0O-7c5" id="iHL-9A-zVO"/>
                         <outlet property="requestLeadConstraint" destination="Uz1-oc-YT4" id="4L7-87-c6O"/>
                         <outlet property="request_Count" destination="6VK-La-EZW" id="WTx-bg-U53"/>
+                        <outlet property="testSwitch" destination="UhQ-7J-407" id="ri6-gy-zC7"/>
                         <outlet property="tripbottomConstraint" destination="YDg-PN-H0y" id="AcC-7B-olQ"/>
                         <outlet property="triptrailConstraint" destination="82G-xL-epr" id="9Oa-Hl-QE2"/>
                         <outlet property="userCount" destination="e2E-KH-fWJ" id="bZZ-Gw-WIM"/>
