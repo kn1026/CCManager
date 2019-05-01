@@ -275,6 +275,13 @@ class addCampusVC: UIViewController, GMSMapViewDelegate, UITextFieldDelegate, UI
         
         geoFire.setLocation(CLLocation(latitude: lat, longitude: lon), forKey: names)
         
+        
+        let ref = Database.database().reference().child("Campus-Connect").child("Available_Campus").child(names).childByAutoId()
+        
+        
+        let key = ref.key
+        Database.database().reference().child("Campus-Connect").child("Available_Campus").child(names).updateChildValues(["Key": key!])
+        
         SwiftLoader.hide()
         
         self.dismiss(animated: true, completion: nil)

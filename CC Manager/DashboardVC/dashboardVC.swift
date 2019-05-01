@@ -12,7 +12,7 @@ import Cache
 
 class dashboardVC: UIViewController {
 
-    @IBOutlet weak var testSwitch: UISwitch!
+    
     @IBOutlet weak var driverCount: UILabel!
     @IBOutlet weak var userCount: UILabel!
     @IBOutlet weak var blurView: UIView!
@@ -67,34 +67,14 @@ class dashboardVC: UIViewController {
         countDriver()
         countUser()
         request_Counts()
-        check_test_status()
+        //check_test_status()
         
         
         
     }
     
     
-    @IBAction func switchBtnPressed(_ sender: Any) {
-        
-        
-        if testSwitch.isOn == true {
-            
-            
-           
-            Database.database().reference().child("Campus-Connect").child("Test_Mode").setValue(["Value": 1, "timeStamp": ServerValue.timestamp()])
-            
-            
-        } else {
-            
-            
-            Database.database().reference().child("Campus-Connect").child("Test_Mode").removeValue()
-            
-            
-        }
-        
-        
-    }
-    
+
     
     func alignBtn() {
         
@@ -171,27 +151,7 @@ class dashboardVC: UIViewController {
         
     }
     
-    func check_test_status() {
-        
-        
-        Database.database().reference().child("Campus-Connect").child("Test_Mode").observeSingleEvent(of: .value, with: { (TestData) in
-            
-            if TestData.exists() {
-                
-                
-               self.testSwitch.isOn = true
-                
-            } else {
-                
-                self.testSwitch.isOn = false
-               
-                
-            }
-            
-        })
-        
-        
-    }
+
     
     func request_Counts() {
         

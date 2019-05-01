@@ -262,6 +262,43 @@ class campusDetail: UIViewController,GMSMapViewDelegate, UITextFieldDelegate {
         
         
     }
+ 
+    
+    @IBAction func notiBtnPressed(_ sender: Any) {
+        
+        
+        
+        Database.database().reference().child("Campus-Connect").child("Request_noti_school").removeValue()
+        
+        
+        
+        Database.database().reference().child("Campus-Connect").child("Available_Campus").child(uniNameLbl.text!).observeSingleEvent(of: .value, with: { (schoolData) in
+            
+            
+            if schoolData.exists() {
+                
+                if let dict = schoolData.value as? Dictionary<String, Any> {
+                    
+                    
+                    if let subKey = dict["Key"] as? String {
+                        
+                        Database.database().reference().child("Campus-Connect").child("Request_noti_school").child(subKey).setValue([self.uniNameLbl.text!:"1"])
+                        
+                        
+                        }
+                        
+                    }
+                    
+            } else {
+                print("Can't find school")
+            }
+                
+                
+            })
+        
+        
+    }
+    
     @IBAction func deleteBtnPressed(_ sender: Any) {
         
         Database.database().reference().child("Campus-Connect").child("Available_Campus").child(uniName).removeValue()
