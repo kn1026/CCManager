@@ -21,6 +21,10 @@
 		6A6DA33B225158FB00BB864A /* CampusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6DA33A225158FB00BB864A /* CampusModel.swift */; };
 		6A6DA33E22519FAE00BB864A /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6DA33D22519FAE00BB864A /* DataService.swift */; };
 		6A84CED120BBBBA30012F35E /* dashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A84CED020BBBBA30012F35E /* dashboardVC.swift */; };
+		6AB24A98227A760600AC0388 /* ReportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB24A97227A760600AC0388 /* ReportVC.swift */; };
+		6AB24A9A227A799C00AC0388 /* ReportCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB24A99227A799C00AC0388 /* ReportCell.swift */; };
+		6AB24A9C227A79B100AC0388 /* ReportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB24A9B227A79B100AC0388 /* ReportModel.swift */; };
+		6AB24A9E227A880A00AC0388 /* ReportDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB24A9D227A880A00AC0388 /* ReportDetailVC.swift */; };
 		6AFFF87B2083E436004B2B9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFFF87A2083E436004B2B9B /* AppDelegate.swift */; };
 		6AFFF87D2083E436004B2B9B /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFFF87C2083E436004B2B9B /* SignInVC.swift */; };
 		6AFFF8802083E436004B2B9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFF87E2083E436004B2B9B /* Main.storyboard */; };
@@ -71,6 +75,10 @@
 		6A6DA33A225158FB00BB864A /* CampusModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampusModel.swift; sourceTree = "<group>"; };
 		6A6DA33D22519FAE00BB864A /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		6A84CED020BBBBA30012F35E /* dashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dashboardVC.swift; sourceTree = "<group>"; };
+		6AB24A97227A760600AC0388 /* ReportVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportVC.swift; sourceTree = "<group>"; };
+		6AB24A99227A799C00AC0388 /* ReportCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportCell.swift; sourceTree = "<group>"; };
+		6AB24A9B227A79B100AC0388 /* ReportModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportModel.swift; sourceTree = "<group>"; };
+		6AB24A9D227A880A00AC0388 /* ReportDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportDetailVC.swift; sourceTree = "<group>"; };
 		6AFFF8772083E436004B2B9B /* CC Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CC Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AFFF87A2083E436004B2B9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AFFF87C2083E436004B2B9B /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -229,6 +237,17 @@
 			path = Constant;
 			sourceTree = "<group>";
 		};
+		6AB24A96227A75F500AC0388 /* Report */ = {
+			isa = PBXGroup;
+			children = (
+				6AB24A97227A760600AC0388 /* ReportVC.swift */,
+				6AB24A99227A799C00AC0388 /* ReportCell.swift */,
+				6AB24A9B227A79B100AC0388 /* ReportModel.swift */,
+				6AB24A9D227A880A00AC0388 /* ReportDetailVC.swift */,
+			);
+			path = Report;
+			sourceTree = "<group>";
+		};
 		6AFFF86E2083E436004B2B9B = {
 			isa = PBXGroup;
 			children = (
@@ -254,6 +273,7 @@
 		6AFFF8792083E436004B2B9B /* CC Manager */ = {
 			isa = PBXGroup;
 			children = (
+				6AB24A96227A75F500AC0388 /* Report */,
 				6A6DA33C22519F9D00BB864A /* DataService */,
 				6A1E54A6213C373500E91A0A /* Utils */,
 				6A6A2A5020BFB09A00F5EECA /* CampusVC */,
@@ -541,6 +561,10 @@
 				6A6DA33B225158FB00BB864A /* CampusModel.swift in Sources */,
 				6A4BB19F21759F1B00D520B8 /* SwiftLoader.swift in Sources */,
 				6A6DA3392250C48D00BB864A /* addCampusVC.swift in Sources */,
+				6AB24A9E227A880A00AC0388 /* ReportDetailVC.swift in Sources */,
+				6AB24A9C227A79B100AC0388 /* ReportModel.swift in Sources */,
+				6AB24A9A227A799C00AC0388 /* ReportCell.swift in Sources */,
+				6AB24A98227A760600AC0388 /* ReportVC.swift in Sources */,
 				6AFFF8B920840B4D004B2B9B /* constant.swift in Sources */,
 				6AFFF8AD208403AC004B2B9B /* applicationVC.swift in Sources */,
 				6A6A2A5220BFB58F00F5EECA /* campusCell.swift in Sources */,
@@ -728,7 +752,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SZJV9V2BS9;
+				DEVELOPMENT_TEAM = LXVXS9V5X7;
 				INFOPLIST_FILE = "CC Manager/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -748,7 +772,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SZJV9V2BS9;
+				DEVELOPMENT_TEAM = LXVXS9V5X7;
 				INFOPLIST_FILE = "CC Manager/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

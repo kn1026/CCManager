@@ -90,7 +90,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CC Manager/ApplicationVC/applicationVC.swift"
-            timestampString = "575932662.7087539"
+            timestampString = "578454854.251405"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "62"
@@ -106,7 +106,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CC Manager/ApplicationVC/applicationVC.swift"
-            timestampString = "575932662.708878"
+            timestampString = "578454854.2515039"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "573"
@@ -122,7 +122,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CC Manager/ApplicationVC/applicationVC.swift"
-            timestampString = "575932662.708987"
+            timestampString = "578454854.251555"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "570"
@@ -138,7 +138,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CC Manager/ApplicationVC/applicationVC.swift"
-            timestampString = "575932662.709054"
+            timestampString = "578454854.251599"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "569"
@@ -287,8 +287,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "676"
             endingLineNumber = "676"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "checkifcheckrrequest()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -303,8 +303,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "687"
             endingLineNumber = "687"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "checkifcheckrrequest()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -319,8 +319,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "695"
             endingLineNumber = "695"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "checkifcheckrrequest()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -335,8 +335,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "709"
             endingLineNumber = "709"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "checkifcheckrrequest()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -378,7 +378,7 @@
                   moduleName = "CC Manager"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/khoinguyen/Desktop/CCManager/CC%20Manager/ApplicationVC/Checkr-detailVC.swift"
-                  timestampString = "578370992.306283"
+                  timestampString = "578602059.522498"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "54"
@@ -393,7 +393,7 @@
                   moduleName = "CC Manager"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/khoinguyen/Desktop/CCManager/CC%20Manager/ApplicationVC/Checkr-detailVC.swift"
-                  timestampString = "578370992.310662"
+                  timestampString = "578602059.524606"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "56"
@@ -527,8 +527,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "86"
             endingLineNumber = "86"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "loadLicsPlate()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -538,7 +538,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CC Manager/ApplicationVC/applicationVC.swift"
-            timestampString = "575932662.710996"
+            timestampString = "578454854.252135"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "527"
@@ -559,8 +559,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "370"
             endingLineNumber = "370"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "carImg1BtnPressed(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -575,8 +575,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "378"
             endingLineNumber = "378"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "carImg2BtnPressed(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -586,7 +586,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CC Manager/ApplicationVC/ApplicationCell.swift"
-            timestampString = "575932662.711218"
+            timestampString = "578451784.210148"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "101"
@@ -602,11 +602,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CC Manager/DashboardVC/dashboardVC.swift"
-            timestampString = "578370419.946232"
+            timestampString = "578456428.506767"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "225"
-            endingLineNumber = "225"
+            startingLineNumber = "226"
+            endingLineNumber = "226"
             landmarkName = "countDriver()"
             landmarkType = "7">
             <Locations>
@@ -650,7 +650,23 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CC Manager/DashboardVC/dashboardVC.swift"
-            timestampString = "578370419.946323"
+            timestampString = "578456428.506861"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "229"
+            endingLineNumber = "229"
+            landmarkName = "countDriver()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CC Manager/DashboardVC/dashboardVC.swift"
+            timestampString = "578456428.506917"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "228"
@@ -666,39 +682,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CC Manager/DashboardVC/dashboardVC.swift"
-            timestampString = "578370419.946416"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "227"
-            endingLineNumber = "227"
-            landmarkName = "countDriver()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CC Manager/DashboardVC/dashboardVC.swift"
-            timestampString = "578370419.946508"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "231"
-            endingLineNumber = "231"
-            landmarkName = "countDriver()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CC Manager/DashboardVC/dashboardVC.swift"
-            timestampString = "578370419.946588"
+            timestampString = "578456428.506968"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "232"
@@ -714,11 +698,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CC Manager/DashboardVC/dashboardVC.swift"
-            timestampString = "578370419.946665"
+            timestampString = "578456428.507014"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "238"
-            endingLineNumber = "238"
+            startingLineNumber = "233"
+            endingLineNumber = "233"
             landmarkName = "countDriver()"
             landmarkType = "7">
          </BreakpointContent>
@@ -730,7 +714,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CC Manager/DashboardVC/dashboardVC.swift"
-            timestampString = "578370419.946741"
+            timestampString = "578456428.507059"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "239"
@@ -742,15 +726,31 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CC Manager/DashboardVC/dashboardVC.swift"
+            timestampString = "578456428.507104"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "240"
+            endingLineNumber = "240"
+            landmarkName = "countDriver()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CC Manager/DashboardVC/dashboardVC.swift"
-            timestampString = "578370419.9468139"
+            timestampString = "578456428.507151"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "210"
-            endingLineNumber = "210"
+            startingLineNumber = "211"
+            endingLineNumber = "211"
             landmarkName = "send_noti_driver(_:)"
             landmarkType = "7">
          </BreakpointContent>

@@ -142,6 +142,7 @@ class dashboardVC: UIViewController {
     
     @IBAction func reportBtnPressed(_ sender: Any) {
         
+        self.performSegue(withIdentifier: "moveToReportVC", sender: nil)
         
     }
     
